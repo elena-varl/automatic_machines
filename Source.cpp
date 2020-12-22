@@ -2,7 +2,7 @@
 #include <string>
 #include <map>
 using namespace std;
-/*Перевести римские числа в арабские*/
+/*Translate Roman numbers into Arabian*/
 /* I = 1
 V = 5
 X = 10
@@ -12,7 +12,7 @@ D = 500
 M = 1000*/
 int TranslateFromRomToArabian(string str)
 {
-	map<char, int> ch;//для обозначений римских чисел
+	map<char, int> ch;//for Roman numbers and its Arabian implementation
 	int t,res;
 	ch.insert(make_pair('M', 1000));
 	ch.insert(make_pair('D', 500));
